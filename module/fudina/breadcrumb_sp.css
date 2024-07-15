@@ -1,0 +1,12 @@
+div#breadcrumb{
+	margin:10px 0 10px 10px;
+}
+div#breadcrumb a,#breadcrumb h1{
+	font-size:80%;
+}
+#breadcrumb h1{
+	display:inline;
+}
+div#breadcrumb a{
+	color:var(--ff-black);
+}

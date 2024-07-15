@@ -1,0 +1,4 @@
+SetEnvIf Referer http://localhost:84/ ok_url
+order deny,allow
+deny from all
+allow from env=ok_url

@@ -1,0 +1,3 @@
+<link rel="stylesheet" href="/module/css/fujimodal.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/module/css/content_list_sp.css" type="text/css" media="all" />
+<link rel="stylesheet" href="[this]style.css" type="text/css" media="all" />

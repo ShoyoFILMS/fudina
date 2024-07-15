@@ -1,0 +1,4 @@
+show,symbol,parent,frame,title,description,keywords
+o,top,-,empty,トップ,コンテンツを掲載しています！,"動画,ブログ,技術"
+o,gallery,top,empty,ギャラリー,作品一覧,作品一覧
+o,site,author,empty,このサイトについて,,

@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9_-]+)/$ ?page_var1=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ ?page_var1=$1&page_var2=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ ?page_var1=$1&page_var2=$2&page_var3=$3

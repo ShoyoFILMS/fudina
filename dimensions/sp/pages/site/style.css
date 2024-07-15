@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'nico';
+	src: url("/module/font/nicokaku_v1.woff") format('woff');
+}
+html{
+	background:var(--silver-gradient);
+}
+body{
+	min-height:100vh;
+}

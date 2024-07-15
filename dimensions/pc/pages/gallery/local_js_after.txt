@@ -1,0 +1,2 @@
+<script type="text/javascript" src="/module/js/fujimodal.js"></script>
+<script type="text/javascript" src="/module/js/content_list.js"></script>

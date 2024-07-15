@@ -1,0 +1,23 @@
+div#article p.note{
+    color: #ff8040;
+    font-weight:bold;
+	padding:10px;
+}
+div#article noscript{
+    color: red;
+    font-weight:bold;
+	padding:10px;
+}
+div#article h2.list_header{
+    font-family: Impact;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 30px 0 10px;
+    padding-left:10px;
+}
+div#article div.box{
+	width:100%;
+	position:relative;
+	margin:0 auto;
+	overflow:hidden;
+}

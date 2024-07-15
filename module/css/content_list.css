@@ -1,0 +1,128 @@
+div#article ul.content_list{
+	clear:both;
+	list-style:none;
+	padding:0;
+	font-size:12px;
+	margin:0 0 20px;
+	border-top:1px solid #ccc;
+	user-select:none;
+}
+div#article a.show_all{
+    margin-left: 10px;
+    height: 1em;
+    vertical-align: middle;
+    background: #ccc;
+    border-radius: 5px;
+    padding: 2px 5px 4px;
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+div#article a.show_all_content_map{
+	display:inline-block;
+	vertical-align:middle;
+	color:#fff;
+	background: #ccc;
+	border-radius:5px;
+	padding:2px 10px;
+	margin:0 0 2px 8px;
+	font-size:15px;
+}
+div#article ul.content_list li{
+	line-height:1.3em;
+	border-bottom:1px solid #ccc;
+	position:relative;
+	transition-duration:0.5s;
+}
+div#article ul.content_list li a{
+	color:#000;
+}
+div#article ul.content_list li:hover{
+	background:#fff;
+	cursor:pointer;
+}
+div#article ul.content_list li a.default{
+	display:inline-block;
+	vertical-align:middle;
+	padding:10px 0;
+	width:570px;
+}
+div#article ul.content_list li a.tag{
+	margin-left: 10px;
+	height:1em;
+	vertical-align:middle;
+	background: #ccc;
+	border-radius:5px;
+	padding:2px 5px 4px;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	font-size:15px;
+}
+
+.fujimodal{
+	text-align:left;
+}
+.fujimodal h2.title{
+	margin-bottom:20px;
+}
+.fujimodal img.visual{
+	max-width:630px;
+}
+.fujimodal div.link{
+	padding:20px 0;
+	line-height:35px;
+	word-break:keep-all;
+}
+.fujimodal div.link a{
+	padding:5px;
+	margin-right:5px;
+	text-decoration:none;
+	border-radius:5px;
+	transition-duration:0.5s;
+}
+.fujimodal div.link a:hover{
+	padding:8px;
+}
+.fujimodal div.link a.niconico{
+	background: #000;
+	color:#fff;
+}
+.fujimodal div.link a.youtube{
+	background:red;
+	color:#fff;
+}
+.fujimodal div.link a.note{
+	background:#41c9b4;
+	color:#000;
+}
+.fujimodal div.link a.qiita{
+	background:#55c500;
+	color: #000;
+}
+.fujimodal div.link a.pixiv{
+	background:#0096fa;
+	color:#fff;
+}
+.fujimodal div.link a.togetter{
+	background:#68bbb0;
+	color:#fff;
+}
+.fujimodal div.link a.denfami{
+	background:#008fb9;
+	color:#fff;
+}
+.fujimodal div.link a.hatena{
+	background: #000;
+	color:#fff;
+}
+.fujimodal div.link a.download{
+	background:#0000a0;
+	color:#fff;
+}
+.fujimodal div.link a.site{
+	background:#0000a0;
+	color:#fff;
+}

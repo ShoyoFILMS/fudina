@@ -1,0 +1,8 @@
+div#breadcrumb{
+	width:960px;
+	margin:10px auto;
+	font-size:12px;
+}
+div#breadcrumb a{
+	color:var(--ff-black);
+}

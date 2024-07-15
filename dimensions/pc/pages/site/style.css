@@ -1,0 +1,38 @@
+html{
+	background:var(--silver-gradient);
+}
+body{
+	min-height:100vh;
+	min-width:980px;
+}
+div#article{
+	margin-bottom:20px;
+}
+div#article div.box{
+	width:980px;
+	position:relative;
+	margin:0 auto;
+}
+div#article .content_card{
+	vertical-align: bottom;
+}
+div#article ul.page_link li.site{
+	background:var(--impact);
+	font-weight: bold;
+	border-bottom:3px solid var(--ff-black);
+}
+div#article div.box{
+	padding-bottom:50px;
+}
+div#article h2{
+	margin-bottom:10px;
+	color:var(--ff-green);
+	font-size:40px;
+}
+div#article p{
+	margin-bottom:30px;
+}
+div#article p a{
+	color:var(--impact);
+	text-decoration:underline;
+}
