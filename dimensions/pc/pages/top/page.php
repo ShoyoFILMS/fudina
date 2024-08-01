@@ -8,4 +8,8 @@
 ?>
 <div class="box">
 	<h1>fudina</h1>
+	<p>
+		<a href="/site/">このサイトについて</a>
+		<a href="/gallery/">コンテンツ一覧</a>
+	</p>
 </div>

@@ -20,6 +20,7 @@
 <meta name="description" content="<?php echo $core->getPageParam("description"); ?>">
 <meta name="keywords" content="<?php echo $core->getPageParam("keywords"); ?>">
 <link rel="stylesheet" href="/dimensions/pc/frames/empty/style.css?" type="text/css" media="all" />
+<link rel="stylesheet" href="/module/fudina/breadcrumb.css?" type="text/css" media="all" />
 <?php
 	if($core->getPageParam("lang_list")!='-'){
 		echo $core->getPageParam("lang_list");
@@ -35,6 +36,11 @@
 <body>
 <div id="article" class="clearfix">
 <?php
+	include_once("./module/fudina/breadcrumb.php");
+	if($core->getPageParam("breadcrumb")!=""){
+		echo "<div id=\"breadcrumb\">{$core->getPageParam("breadcrumb")}</div>";
+	}
+
 	if($core->getPageParam("symbol")!="top"){
 		if($core->getPageParam("status")===$core->getPageStatusNum("testing")){
 			echo "<p class=\"alert\">※このページはテスト公開中です。</p>";
